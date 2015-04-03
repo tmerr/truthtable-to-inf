@@ -1,13 +1,12 @@
 """
-Prompts the user for a truth table then generates sentences in inductive normal
-form (INF) that satisfy it.
+Prompts the user for a truth table then generates sentences in implicative normal
+form (INF) that match it.
 """
 
 
-from collections import namedtuple
-import math
 import itertools
 import string
+import math
 
 
 def powerset(seq):
